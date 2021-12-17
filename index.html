@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/img/icon/BandIcon.png" sizes="50x50">
+  <title>The Band</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/reponsive.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <!-- begin nav -->
+      <ul id="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#band">Band</a></li>
+        <li><a href="#tour">Tour</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="#">
+            More
+            <i class="fas fa-caret-down NavCaretDown"></i>
+          </a>
+          <ul class="subnav">
+            <li><a href="#0">Merchandise</a></li>
+            <li><a href="#0">Extras</a></li>
+            <li><a href="#0">Media</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- end nav -->
+
+      <!-- begin Search btn -->
+      <div class="SearchBtn floatRight">
+        <i class="SearchIcon fas fa-search pd_lr16"></i>
+      </div>
+
+      <!-- on mobile -->
+      <div class="mobileMenuBtn floatRight pd_lr16" id="mobileMenu">
+        <i class="fas fa-bars"></i>
+      </div>
+      <!-- end Search btn -->
+    </div>
+
+    <!-- begin slider -->
+    <div id="slider">
+      <div class="textContent">
+        <h3 class="textHeading m_tb16">Chicago</h3>
+        <div class="textDescription m_tb8">
+          Thank you, Chicago - A right we won't forget.
+        </div>
+      </div>
+    </div>
+    <!-- end slider -->
+
+    <div id="content">
+      <!-- begin About section -->
+      <div id="band" class="contentSection pd_tb64">
+        <h2 class="sectionHeading m_tb8">THE BAND</h2>
+        <p class="sectionSubHeading m_tb16">We love music</p>
+        <p class="aboutText m_tb16">
+          We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="memberList row pd_tb32">
+          <div class="MobileMemsList col colThird">
+            <p class="S_mtb16">Name</p>
+            <img src="./assets/img/slider/bandmember.jpg" alt="Name" class="memberImg">
+          </div>
+          <div class="MobileMemsList col colThird">
+            <p class="S_mtb16">Name</p>
+            <img src="./assets/img/slider/bandmember.jpg" alt="Name" class="memberImg">
+          </div>
+          <div class="MobileMemsList col colThird">
+            <p class="S_mtb16">Name</p>
+            <img src="./assets/img/slider/bandmember.jpg" alt="Name" class="memberImg">
+          </div>
+        </div>
+      </div>
+
+      <!-- TOUR DATES section -->
+      <div id="tour" class="pd_tb64 tourSection">
+        <div class="contentSection">
+          <h2 class="sectionHeading textWhite">TOUR DATES</h2>
+          <p class="sectionSubHeading textWhite"><i>Remember to book your tickets!</i></p>
+          <br>
+
+          <ul class="ticketList">
+            <li>September <span class="soldOut pd_lr8">Sold out</span></li>
+            <li>October <span class="soldOut pd_lr8">Sold out</span></li>
+            <li>November<span class="quantity floatRight">3</span></li>
+          </ul>
+          <!-- place -->
+          <div class="placeList row">
+            <div class="MobilePlaceItem colThird col ">
+              <img src="./assets/img/cities/newyork.jpg" alt="New York" class="colFull HoverTag">
+              <div class="placeBody">
+                <h3 class="Headingplace">New York</h3>
+                <p class="Timeplace">Fri 27 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button class="btn S_widthFull">Buy Tickets</button>
+              </div>
+            </div>
+            <div class="MobilePlaceItem colThird col">
+              <img src="./assets/img/cities/paris.jpg" alt="Paris" class="colFull HoverTag">
+              <div class="placeBody">
+                <h3 class="Headingplace">Paris</h3>
+                <p class="Timeplace">Sat 28 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button class="btn S_widthFull">Buy Tickets</button>
+              </div>
+            </div>
+            <div class="MobilePlaceItem colThird col">
+              <img src="./assets/img/cities/sanfran.jpg" alt="San Francisco" class="colFull HoverTag">
+              <div class="placeBody">
+                <h3 class="Headingplace">San Francisco</h3>
+                <p class="Timeplace">Sun 29 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <button class="btn S_widthFull">Buy Tickets</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end TOUR DATES section -->
+
+      <!-- begin CONTACT section -->
+      <div id="contact" class="contentSection row pd_tb64">
+        <h2 class="sectionHeading">CONTACT</h2>
+        <p class="sectionSubHeading">Fan? Drop a note!</p>
+        <div class="row pd_tb32">
+          <div class="col colHalf S_colFull contactInfo">
+            <p><i class="fas fa-map-marker-alt"></i>Chicago, US</p>
+            <p><i class="fas fa-phone-alt">
+            </i>Phone:<a href="tel:+00 151515">+00 151515</a></p>
+            <p><i class="fas fa-envelope">
+            </i>Email:<a href="mailto:phanductai920510@mail.com">phanductai920510@mail.com</a></p>
+          </div>
+          <div class="col colHalf S_colFull contactForm">
+            <form action="">
+              <div class="row">
+                <div class="col colHalf S_colFull">
+                  <input type="text" placeholder="Name" required class="pd_8 colFull">
+                </div>
+                <div class="col colHalf S_colFull">
+                  <input type="email" placeholder="Email" required class="pd_8 colFull">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col colFull">
+                  <input type="text" placeholder="Message" required id="" class="pd_8 colFull">
+                </div>
+              </div>
+              <input type="submit" value="SEND" class="btn m_tb16 floatRight S_widthFull"></input>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- end CONTACT section -->
+
+      <!-- Image of location/map -->
+      <img src="./assets/img/map/map.jpg" alt="map" class="mapSection">
+    </div>
+  </div>
+  <!-- end slider -->
+
+  <!-- begin modal -->
+  <div class="modal openModal colFull">
+    <div class="modalContainer">
+      <div class="modalClose">
+        <i class="fas fa-times "></i>
+      </div>
+      <header class="modalHeader">
+        <div class="TicketHeader">
+          <i class="fas fa-suitcase"> </i> Tickets
+        </div>
+      </header>
+      <div class="modalBody pd_lr16">
+        <label for="modalInputId" class="modelLabel colFull">
+          <i class="fas fa-shopping-cart"></i>
+          Tickets, $15 person
+        </label>
+        <input id="modalInputId" type="text" class="modalInput pd_8" placeholder="How many?">
+        <label for="modalEmailId" class="modelLabel">
+          <i class="fa fa-user"></i>
+          Send To
+        </label>
+        <input id="modalEmailId" type="email" class="modalInput" placeholder="Enter email">
+
+        <button id="BuyTicketBtnId" class="m_tb16 colFull ">PAY
+          <i class="fa fa-check"></i>
+        </button>
+        <footer class="modalFooter m_tb16">Need
+          <a href="#" style="color: #2196F3;">help?</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <!-- end modal -->
+
+  <!-- footer -->
+  <div class="footer">
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-snapchat"></i>
+    <i class="fab fa-pinterest-p"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-linkedin-in"></i>
+    <p class="footerText">Powered by <a href="#">w3.css</a></p>
+  </div>
+  <!-- end footer -->
+
+  <script src="./assets/js/javascript.js"></script>
+</body>
+
+</html>

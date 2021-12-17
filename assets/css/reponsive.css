@@ -1,0 +1,113 @@
+/* pc, 12ms59ss: 1024px */
+@media (min-width: 64em) {
+
+    
+/* end pc */
+}
+
+/* Table & mobile, 12ms59ss: 1023px */
+@media (max-width: 63.938em) {
+#content .btn {
+    padding: 12px 24px;
+}
+
+#content .contactForm input {
+    padding: 12px 8px;
+}
+
+.footer p {
+    font-size: 24px;
+}
+
+#content .contactInfo {
+    font-size: 17px;
+    line-height: 2;
+}
+
+/* end Table & mobile */
+}
+
+/* tablet, 12ms59ss: 740px và 1023px*/
+@media (min-width: 46.250em) and (max-width: 63.938em) {
+
+
+/* end tablet */
+}
+
+
+/* mobile, 12ms18ss: 739px */
+@media (max-width: 46.188em){
+
+.S_mtb16 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.S_widthFull,
+.S_colFull {
+    width: 100%;
+}
+
+#header {
+    overflow: hidden;
+}
+
+#header #nav {
+    display: block;
+}
+
+#header #nav > li {
+    display: block;
+    border-top: 1px solid rgba(204, 204, 204, 0.3);
+}
+
+#header #nav li:first-child {
+    display: inline-block;
+    border: none;
+}
+
+#header #nav .subnav li:first-child {
+    display: block;
+} 
+
+#nav .subnav {
+    position: initial;
+    background-color: #000;
+}
+
+#nav .subnav li{
+    border-top: 1px solid rgba(204, 204, 204, 0.3);
+}
+
+#header #nav .subnav a {
+    color: #fff;
+    padding: 0 40px;
+    display: block;
+}
+
+#header .SearchBtn {
+    display: none;
+}
+
+#header .mobileMenuBtn {
+    display: block;
+}
+
+.MobileMemsList {
+    width: 100%;
+}
+
+.MobilePlaceItem {
+    width: 100%;
+    margin-bottom: 16px;
+} 
+
+#content .contactForm {
+    margin-top: 36px;
+}
+
+
+/* end mobile */
+}
+
+  
