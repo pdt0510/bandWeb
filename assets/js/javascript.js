@@ -1,11 +1,12 @@
-//disable smooth scrolling (tắt smooth khi dùng con lăn của con chuột)
-// window.onscroll = function (e) {
-//   var x = window.scrollX;
-//   var y = window.scrollY;  
-//   console.log(x, y);
-//   window.scrollTo(x, y);
-// };
-
+//disable smooth scrolling 
+// source: http://stackoverflow.com/a/35611393/992504
+document.getElementsByTagName("body")[0].addEventListener("wheel",function (event) {
+  // exception for ACE Editor, JS text editor used by sites like GitHub
+  if (event.target.classList.contains('ace_content')) {
+    return;
+  }
+  event.stopPropagation();
+}, true)
 
 // opening/closing on menu icon
 var header = document.getElementById("header");
