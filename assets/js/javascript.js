@@ -1,9 +1,11 @@
 //disable smooth scrolling (tắt smooth khi dùng con lăn của con chuột)
-var x = window.scrollX;
-var y = window.scrollY;
 window.onscroll = function () {
+  var x = window.scrollX;
+  var y = window.scrollY;  
+  console.log(x, y);
   window.scrollTo(x, y);
 };
+
 
 
 // opening/closing on menu icon
